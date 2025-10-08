@@ -1,3 +1,5 @@
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/Data_Structure_with_CPP.dir
+E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/Searching.dir
+E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/Array.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

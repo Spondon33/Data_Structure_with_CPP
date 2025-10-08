@@ -4,3 +4,5 @@ project(Data_Structure_with_CPP)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Data_Structure_with_CPP main.cpp)
+add_executable(Searching binarySearch.cpp linearSearch.cpp)
+add_executable(Array 1DArrayInsertion.cpp)
