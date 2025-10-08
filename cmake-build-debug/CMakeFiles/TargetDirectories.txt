@@ -3,5 +3,6 @@ E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/BinarySearch.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/LinearSearch.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/1DArrayInsert.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/1DArrayDelete.dir
+E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/1DArrayMerge.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

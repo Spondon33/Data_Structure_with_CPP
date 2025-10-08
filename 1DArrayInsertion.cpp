@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-    int size = 5;
-    int Arr[size] = {1, 2, 3, 4, 5};
+    int Arr[] = {1, 2, 3, 4, 5};
+    int size = sizeof(Arr) / sizeof(int);
 
     cout << "Array: ";
     for (int i = 0; i < size; i++) {

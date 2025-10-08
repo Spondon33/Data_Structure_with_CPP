@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -56,6 +58,13 @@
 					"id" : "1DArrayInsert::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-1DArrayInsert-Debug-a9edc71ba5e83b595fe9.json",
 					"name" : "1DArrayInsert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1DArrayMerge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1DArrayMerge-Debug-b376e995b6183c3455b8.json",
+					"name" : "1DArrayMerge",
 					"projectIndex" : 0
 				},
 				{
