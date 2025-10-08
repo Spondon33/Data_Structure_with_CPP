@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Searching.exe"
+			"path" : "1DArrayInsert.exe"
 		},
 		{
-			"path" : "Searching.pdb"
+			"path" : "1DArrayInsert.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -52,12 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"id" : "Searching::@6890427a1f51a3e7e1df",
+	"id" : "1DArrayInsert::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Searching",
-	"nameOnDisk" : "Searching.exe",
+	"name" : "1DArrayInsert",
+	"nameOnDisk" : "1DArrayInsert.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,8 +89,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -100,13 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "binarySearch.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "linearSearch.cpp",
+			"path" : "1DArrayInsertion.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

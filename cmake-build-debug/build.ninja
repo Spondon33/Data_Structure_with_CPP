@@ -74,76 +74,136 @@ build Data_Structure_with_CPP.exe: CXX_EXECUTABLE_LINKER__Data_Structure_with_CP
   TARGET_PDB = Data_Structure_with_CPP.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Searching
+# Object build statements for EXECUTABLE target BinarySearch
 
 
 #############################################
-# Order-only phony target for Searching
+# Order-only phony target for BinarySearch
 
-build cmake_object_order_depends_target_Searching: phony || CMakeFiles/Searching.dir
+build cmake_object_order_depends_target_BinarySearch: phony || CMakeFiles/BinarySearch.dir
 
-build CMakeFiles/Searching.dir/binarySearch.cpp.obj: CXX_COMPILER__Searching_unscanned_Debug E$:/Data$ Structure$ with$ CPP/binarySearch.cpp || cmake_object_order_depends_target_Searching
-  DEP_FILE = CMakeFiles\Searching.dir\binarySearch.cpp.obj.d
+build CMakeFiles/BinarySearch.dir/binarySearch.cpp.obj: CXX_COMPILER__BinarySearch_unscanned_Debug E$:/Data$ Structure$ with$ CPP/binarySearch.cpp || cmake_object_order_depends_target_BinarySearch
+  DEP_FILE = CMakeFiles\BinarySearch.dir\binarySearch.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Searching.dir
-  OBJECT_FILE_DIR = CMakeFiles\Searching.dir
-
-build CMakeFiles/Searching.dir/linearSearch.cpp.obj: CXX_COMPILER__Searching_unscanned_Debug E$:/Data$ Structure$ with$ CPP/linearSearch.cpp || cmake_object_order_depends_target_Searching
-  DEP_FILE = CMakeFiles\Searching.dir\linearSearch.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Searching.dir
-  OBJECT_FILE_DIR = CMakeFiles\Searching.dir
+  OBJECT_DIR = CMakeFiles\BinarySearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\BinarySearch.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Searching
+# Link build statements for EXECUTABLE target BinarySearch
 
 
 #############################################
-# Link the executable Searching.exe
+# Link the executable BinarySearch.exe
 
-build Searching.exe: CXX_EXECUTABLE_LINKER__Searching_Debug CMakeFiles/Searching.dir/binarySearch.cpp.obj CMakeFiles/Searching.dir/linearSearch.cpp.obj
+build BinarySearch.exe: CXX_EXECUTABLE_LINKER__BinarySearch_Debug CMakeFiles/BinarySearch.dir/binarySearch.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Searching.dir
+  OBJECT_DIR = CMakeFiles\BinarySearch.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Searching.exe
-  TARGET_IMPLIB = libSearching.dll.a
-  TARGET_PDB = Searching.exe.dbg
+  TARGET_FILE = BinarySearch.exe
+  TARGET_IMPLIB = libBinarySearch.dll.a
+  TARGET_PDB = BinarySearch.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Array
+# Object build statements for EXECUTABLE target LinearSearch
 
 
 #############################################
-# Order-only phony target for Array
+# Order-only phony target for LinearSearch
 
-build cmake_object_order_depends_target_Array: phony || CMakeFiles/Array.dir
+build cmake_object_order_depends_target_LinearSearch: phony || CMakeFiles/LinearSearch.dir
 
-build CMakeFiles/Array.dir/1DArrayInsertion.cpp.obj: CXX_COMPILER__Array_unscanned_Debug E$:/Data$ Structure$ with$ CPP/1DArrayInsertion.cpp || cmake_object_order_depends_target_Array
-  DEP_FILE = CMakeFiles\Array.dir\1DArrayInsertion.cpp.obj.d
+build CMakeFiles/LinearSearch.dir/linearSearch.cpp.obj: CXX_COMPILER__LinearSearch_unscanned_Debug E$:/Data$ Structure$ with$ CPP/linearSearch.cpp || cmake_object_order_depends_target_LinearSearch
+  DEP_FILE = CMakeFiles\LinearSearch.dir\linearSearch.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Array.dir
-  OBJECT_FILE_DIR = CMakeFiles\Array.dir
+  OBJECT_DIR = CMakeFiles\LinearSearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinearSearch.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Array
+# Link build statements for EXECUTABLE target LinearSearch
 
 
 #############################################
-# Link the executable Array.exe
+# Link the executable LinearSearch.exe
 
-build Array.exe: CXX_EXECUTABLE_LINKER__Array_Debug CMakeFiles/Array.dir/1DArrayInsertion.cpp.obj
+build LinearSearch.exe: CXX_EXECUTABLE_LINKER__LinearSearch_Debug CMakeFiles/LinearSearch.dir/linearSearch.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Array.dir
+  OBJECT_DIR = CMakeFiles\LinearSearch.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Array.exe
-  TARGET_IMPLIB = libArray.dll.a
-  TARGET_PDB = Array.exe.dbg
+  TARGET_FILE = LinearSearch.exe
+  TARGET_IMPLIB = libLinearSearch.dll.a
+  TARGET_PDB = LinearSearch.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1DArrayInsert
+
+
+#############################################
+# Order-only phony target for 1DArrayInsert
+
+build cmake_object_order_depends_target_1DArrayInsert: phony || CMakeFiles/1DArrayInsert.dir
+
+build CMakeFiles/1DArrayInsert.dir/1DArrayInsertion.cpp.obj: CXX_COMPILER__1DArrayInsert_unscanned_Debug E$:/Data$ Structure$ with$ CPP/1DArrayInsertion.cpp || cmake_object_order_depends_target_1DArrayInsert
+  DEP_FILE = CMakeFiles\1DArrayInsert.dir\1DArrayInsertion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1DArrayInsert.dir
+  OBJECT_FILE_DIR = CMakeFiles\1DArrayInsert.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1DArrayInsert
+
+
+#############################################
+# Link the executable 1DArrayInsert.exe
+
+build 1DArrayInsert.exe: CXX_EXECUTABLE_LINKER__1DArrayInsert_Debug CMakeFiles/1DArrayInsert.dir/1DArrayInsertion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1DArrayInsert.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1DArrayInsert.exe
+  TARGET_IMPLIB = lib1DArrayInsert.dll.a
+  TARGET_PDB = 1DArrayInsert.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1DArrayDelete
+
+
+#############################################
+# Order-only phony target for 1DArrayDelete
+
+build cmake_object_order_depends_target_1DArrayDelete: phony || CMakeFiles/1DArrayDelete.dir
+
+build CMakeFiles/1DArrayDelete.dir/1DArrayDeletion.cpp.obj: CXX_COMPILER__1DArrayDelete_unscanned_Debug E$:/Data$ Structure$ with$ CPP/1DArrayDeletion.cpp || cmake_object_order_depends_target_1DArrayDelete
+  DEP_FILE = CMakeFiles\1DArrayDelete.dir\1DArrayDeletion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1DArrayDelete.dir
+  OBJECT_FILE_DIR = CMakeFiles\1DArrayDelete.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1DArrayDelete
+
+
+#############################################
+# Link the executable 1DArrayDelete.exe
+
+build 1DArrayDelete.exe: CXX_EXECUTABLE_LINKER__1DArrayDelete_Debug CMakeFiles/1DArrayDelete.dir/1DArrayDeletion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1DArrayDelete.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1DArrayDelete.exe
+  TARGET_IMPLIB = lib1DArrayDelete.dll.a
+  TARGET_PDB = 1DArrayDelete.exe.dbg
 
 
 #############################################
@@ -171,11 +231,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Array: phony Array.exe
+build 1DArrayDelete: phony 1DArrayDelete.exe
+
+build 1DArrayInsert: phony 1DArrayInsert.exe
+
+build BinarySearch: phony BinarySearch.exe
 
 build Data_Structure_with_CPP: phony Data_Structure_with_CPP.exe
 
-build Searching: phony Searching.exe
+build LinearSearch: phony LinearSearch.exe
 
 # =============================================================================
 # Folder targets.
@@ -185,7 +249,7 @@ build Searching: phony Searching.exe
 #############################################
 # Folder: E:/Data Structure with CPP/cmake-build-debug
 
-build all: phony Data_Structure_with_CPP.exe Searching.exe Array.exe
+build all: phony Data_Structure_with_CPP.exe BinarySearch.exe LinearSearch.exe 1DArrayInsert.exe 1DArrayDelete.exe
 
 # =============================================================================
 # Built-in targets

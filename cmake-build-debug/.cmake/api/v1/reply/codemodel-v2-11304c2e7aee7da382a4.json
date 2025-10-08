@@ -17,7 +17,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -34,7 +36,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -42,9 +46,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Array::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Array-Debug-8cfcbfabdeb1a7dc6d00.json",
-					"name" : "Array",
+					"id" : "1DArrayDelete::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1DArrayDelete-Debug-135e90e6f9c36915df98.json",
+					"name" : "1DArrayDelete",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1DArrayInsert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1DArrayInsert-Debug-a9edc71ba5e83b595fe9.json",
+					"name" : "1DArrayInsert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BinarySearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BinarySearch-Debug-bed8bcc714541727e001.json",
+					"name" : "BinarySearch",
 					"projectIndex" : 0
 				},
 				{
@@ -56,9 +74,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Searching::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Searching-Debug-4592a9c126cb917fb449.json",
-					"name" : "Searching",
+					"id" : "LinearSearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinearSearch-Debug-ca6730be69f840f8168f.json",
+					"name" : "LinearSearch",
 					"projectIndex" : 0
 				}
 			]
