@@ -238,6 +238,39 @@ build 1DArrayMerge.exe: CXX_EXECUTABLE_LINKER__1DArrayMerge_Debug CMakeFiles/1DA
   TARGET_IMPLIB = lib1DArrayMerge.dll.a
   TARGET_PDB = 1DArrayMerge.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2DArray
+
+
+#############################################
+# Order-only phony target for 2DArray
+
+build cmake_object_order_depends_target_2DArray: phony || CMakeFiles/2DArray.dir
+
+build CMakeFiles/2DArray.dir/2DArray.cpp.obj: CXX_COMPILER__2DArray_unscanned_Debug E$:/Data$ Structure$ with$ CPP/2DArray.cpp || cmake_object_order_depends_target_2DArray
+  DEP_FILE = CMakeFiles\2DArray.dir\2DArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2DArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\2DArray.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2DArray
+
+
+#############################################
+# Link the executable 2DArray.exe
+
+build 2DArray.exe: CXX_EXECUTABLE_LINKER__2DArray_Debug CMakeFiles/2DArray.dir/2DArray.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2DArray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2DArray.exe
+  TARGET_IMPLIB = lib2DArray.dll.a
+  TARGET_PDB = 2DArray.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -270,6 +303,8 @@ build 1DArrayInsert: phony 1DArrayInsert.exe
 
 build 1DArrayMerge: phony 1DArrayMerge.exe
 
+build 2DArray: phony 2DArray.exe
+
 build BinarySearch: phony BinarySearch.exe
 
 build Data_Structure_with_CPP: phony Data_Structure_with_CPP.exe
@@ -284,7 +319,7 @@ build LinearSearch: phony LinearSearch.exe
 #############################################
 # Folder: E:/Data Structure with CPP/cmake-build-debug
 
-build all: phony Data_Structure_with_CPP.exe BinarySearch.exe LinearSearch.exe 1DArrayInsert.exe 1DArrayDelete.exe 1DArrayMerge.exe
+build all: phony Data_Structure_with_CPP.exe BinarySearch.exe LinearSearch.exe 1DArrayInsert.exe 1DArrayDelete.exe 1DArrayMerge.exe 2DArray.exe
 
 # =============================================================================
 # Built-in targets
