@@ -271,6 +271,39 @@ build 2DArray.exe: CXX_EXECUTABLE_LINKER__2DArray_Debug CMakeFiles/2DArray.dir/2
   TARGET_IMPLIB = lib2DArray.dll.a
   TARGET_PDB = 2DArray.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target String
+
+
+#############################################
+# Order-only phony target for String
+
+build cmake_object_order_depends_target_String: phony || CMakeFiles/String.dir
+
+build CMakeFiles/String.dir/string.cpp.obj: CXX_COMPILER__String_unscanned_Debug E$:/Data$ Structure$ with$ CPP/string.cpp || cmake_object_order_depends_target_String
+  DEP_FILE = CMakeFiles\String.dir\string.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\String.dir
+  OBJECT_FILE_DIR = CMakeFiles\String.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target String
+
+
+#############################################
+# Link the executable String.exe
+
+build String.exe: CXX_EXECUTABLE_LINKER__String_Debug CMakeFiles/String.dir/string.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\String.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = String.exe
+  TARGET_IMPLIB = libString.dll.a
+  TARGET_PDB = String.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -311,6 +344,8 @@ build Data_Structure_with_CPP: phony Data_Structure_with_CPP.exe
 
 build LinearSearch: phony LinearSearch.exe
 
+build String: phony String.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +354,7 @@ build LinearSearch: phony LinearSearch.exe
 #############################################
 # Folder: E:/Data Structure with CPP/cmake-build-debug
 
-build all: phony Data_Structure_with_CPP.exe BinarySearch.exe LinearSearch.exe 1DArrayInsert.exe 1DArrayDelete.exe 1DArrayMerge.exe 2DArray.exe
+build all: phony Data_Structure_with_CPP.exe BinarySearch.exe LinearSearch.exe 1DArrayInsert.exe 1DArrayDelete.exe 1DArrayMerge.exe 2DArray.exe String.exe
 
 # =============================================================================
 # Built-in targets
