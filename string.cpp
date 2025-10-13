@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <cstring>
 using namespace std;
 
 int main(){
@@ -33,6 +33,25 @@ int main(){
     cout << "After erase: " << str << endl;
 
     cout << str.find("lo") << endl; // finds the index of the substring
+
+    char firstName[50];
+    char middleName[50];
+    char lastName[50];
+    char fullName[200];
+
+    cout << "Enter first name: ";
+    cin >> firstName;
+    cout << "Enter middle name: ";
+    cin >> middleName;
+    cout << "Enter last name: ";
+    cin >> lastName;
+
+    strcpy(fullName, firstName);
+    strcat(fullName, " ");
+    strcat(fullName, middleName);
+    strcat(fullName, " ");
+    strcat(fullName, lastName);
+    cout << "Full Name: " << fullName << endl;
 
     return 0;
 }
