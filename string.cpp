@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <cstring>
 using namespace std;
 
@@ -34,6 +35,7 @@ int main(){
 
     cout << str.find("lo") << endl; // finds the index of the substring
 
+    //strcat
     char firstName[50];
     char middleName[50];
     char lastName[50];
@@ -52,6 +54,21 @@ int main(){
     strcat(fullName, " ");
     strcat(fullName, lastName);
     cout << "Full Name: " << fullName << endl;
+
+    //strconcat
+    string first;
+    string middle;
+    string last;
+
+    cout << "Enter first name: ";
+    cin >> first;
+    cout << "Enter middle name:";
+    cin >> middle;
+    cout << "Enter last name: ";
+    cin >> last;
+
+    string full = first + " " + middle + " " + last;
+    cout << "Full Name: " << full;
 
     return 0;
 }
