@@ -304,6 +304,105 @@ build String.exe: CXX_EXECUTABLE_LINKER__String_Debug CMakeFiles/String.dir/stri
   TARGET_IMPLIB = libString.dll.a
   TARGET_PDB = String.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Order-only phony target for Stack
+
+build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
+
+build CMakeFiles/Stack.dir/Stack.cpp.obj: CXX_COMPILER__Stack_unscanned_Debug E$:/Data$ Structure$ with$ CPP/Stack.cpp || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles\Stack.dir\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Link the executable Stack.exe
+
+build Stack.exe: CXX_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/Stack.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Stack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Stack.exe
+  TARGET_IMPLIB = libStack.dll.a
+  TARGET_PDB = Stack.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Order-only phony target for Queue
+
+build cmake_object_order_depends_target_Queue: phony || CMakeFiles/Queue.dir
+
+build CMakeFiles/Queue.dir/Queue.cpp.obj: CXX_COMPILER__Queue_unscanned_Debug E$:/Data$ Structure$ with$ CPP/Queue.cpp || cmake_object_order_depends_target_Queue
+  DEP_FILE = CMakeFiles\Queue.dir\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\Queue.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Link the executable Queue.exe
+
+build Queue.exe: CXX_EXECUTABLE_LINKER__Queue_Debug CMakeFiles/Queue.dir/Queue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Queue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Queue.exe
+  TARGET_IMPLIB = libQueue.dll.a
+  TARGET_PDB = Queue.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Singly
+
+
+#############################################
+# Order-only phony target for Singly
+
+build cmake_object_order_depends_target_Singly: phony || CMakeFiles/Singly.dir
+
+build CMakeFiles/Singly.dir/SinglyLinkedList.cpp.obj: CXX_COMPILER__Singly_unscanned_Debug E$:/Data$ Structure$ with$ CPP/SinglyLinkedList.cpp || cmake_object_order_depends_target_Singly
+  DEP_FILE = CMakeFiles\Singly.dir\SinglyLinkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Singly.dir
+  OBJECT_FILE_DIR = CMakeFiles\Singly.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Singly
+
+
+#############################################
+# Link the executable Singly.exe
+
+build Singly.exe: CXX_EXECUTABLE_LINKER__Singly_Debug CMakeFiles/Singly.dir/SinglyLinkedList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Singly.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Singly.exe
+  TARGET_IMPLIB = libSingly.dll.a
+  TARGET_PDB = Singly.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -344,6 +443,12 @@ build Data_Structure_with_CPP: phony Data_Structure_with_CPP.exe
 
 build LinearSearch: phony LinearSearch.exe
 
+build Queue: phony Queue.exe
+
+build Singly: phony Singly.exe
+
+build Stack: phony Stack.exe
+
 build String: phony String.exe
 
 # =============================================================================
@@ -354,7 +459,7 @@ build String: phony String.exe
 #############################################
 # Folder: E:/Data Structure with CPP/cmake-build-debug
 
-build all: phony Data_Structure_with_CPP.exe BinarySearch.exe LinearSearch.exe 1DArrayInsert.exe 1DArrayDelete.exe 1DArrayMerge.exe 2DArray.exe String.exe
+build all: phony Data_Structure_with_CPP.exe BinarySearch.exe LinearSearch.exe 1DArrayInsert.exe 1DArrayDelete.exe 1DArrayMerge.exe 2DArray.exe String.exe Stack.exe Queue.exe Singly.exe
 
 # =============================================================================
 # Built-in targets

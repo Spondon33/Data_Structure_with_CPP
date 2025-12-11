@@ -6,5 +6,8 @@ E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/1DArrayDelete.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/1DArrayMerge.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/2DArray.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/String.dir
+E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/Stack.dir
+E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/Queue.dir
+E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/Singly.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Data Structure with CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
